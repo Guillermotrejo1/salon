@@ -1,26 +1,10 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@theme {
+  --color-brand: #DA7B93;    /* dusty pink: buttons, highlights, the "Book now" */
+  --color-accent: #376E6F;   /* teal: secondary buttons, tags, hover states */
+  --color-surface: #2F4454;  /* slate: cards and alternating sections */
+  --color-page: #1C3334;     /* deep teal: the main page background */
+  --color-deep: #2E151B;     /* dark burgundy: footer, text on pink */
+  --color-ink: #F6F1F2;      /* soft white: main text */
 }
