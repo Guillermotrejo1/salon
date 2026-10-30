@@ -28,8 +28,7 @@ const Nav = () => {
       </button>
       <ul
         id="main-menu"
-        aria-controls="main-menu"
-        className={`${isOpen ? "flex" : "hidden"} md:flex flex-col gap-4 p-6 absolute top-full left-0 right-0 bg-surface md:static md:flex-row md:gap-2 md:p-0 md:bg-transparent`}
+        className={`${isOpen ? "flex" : "hidden"} md:flex flex-col text-lg md:text-base gap-4 p-6 absolute top-full left-0 right-0 bg-surface md:static md:flex-row md:gap-6 md:p-0 md:bg-transparent`}
       >
         <li>
           <Link href="#services" onClick={closeMenu}>
