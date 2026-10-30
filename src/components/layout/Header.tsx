@@ -4,7 +4,7 @@ import Nav from "./Nav";
 
 const Header = () => {
   return (
-    <header className="grid grid-cols-[1fr_auto_auto] md:grid-cols-[auto_1fr_auto] gap-4 md:gap-8 items-center p-8">
+    <header className="grid grid-cols-[1fr_auto_auto] md:grid-cols-[auto_1fr_auto] gap-4 md:gap-8 items-center p-8 relative">
       <Link href="/" className="">
         <span>Jon Doe</span>
         {/* <Image src="" alt="" /> */}
