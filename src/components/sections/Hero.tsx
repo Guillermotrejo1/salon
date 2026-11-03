@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section id="hero" className="grid h-[85dvh] md:h-[75dvh] md:grid-cols-2">
+    <section id="hero" className="grid grid-rows-1 h-[85dvh] md:h-[75dvh] md:grid-cols-2">
       <Image
         src="/hero-image.png"
         width={2268}

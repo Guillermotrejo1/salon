@@ -9,11 +9,11 @@ export default function Home() {
   return (
     <main className="grid gap-16">
       <Hero/>
-      {/* <Services />
-      <Gallery/>
-      <About/>
-      <Faq />
-      <Booking /> */}
+      <Services />
+      {/* <Gallery/> */}
+      {/* <About/> */}
+      {/* <Faq /> */}
+      {/* <Booking /> */}
     </main>
   );
 }
