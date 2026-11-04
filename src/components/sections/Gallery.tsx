@@ -4,8 +4,13 @@ import Link from "next/link";
 
 const Gallery = () => {
   return (
-    <section id="gallery" className="grid gap-6 max-w-5xl mx-auto w-full p-6 md:p-12">
-      <h2 className="text-3xl md:text-4xl font-semibold leading-tight">Recent work</h2>
+    <section
+      id="gallery"
+      className="grid gap-6 max-w-5xl mx-auto w-full p-6 md:p-12"
+    >
+      <h2 className="text-3xl md:text-4xl font-semibold leading-tight">
+        Recent work
+      </h2>
       <ul className="grid grid-cols-2 md:grid-cols-4 gap-3">
         {galleryItems.map((item) => (
           <li
@@ -16,7 +21,11 @@ const Gallery = () => {
               src={item.src}
               alt={item.alt}
               fill
-              sizes={item.featured ? "(min-width: 768px) 50vw, 100vw" : "(min-width: 768px) 25vw, 50vw"}
+              sizes={
+                item.featured
+                  ? "(min-width: 768px) 50vw, 100vw"
+                  : "(min-width: 768px) 25vw, 50vw"
+              }
               className="object-cover rounded-xl"
             />
           </li>
