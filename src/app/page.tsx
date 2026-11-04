@@ -10,7 +10,7 @@ export default function Home() {
     <main className="grid gap-16">
       <Hero/>
       <Services />
-      {/* <Gallery/> */}
+      <Gallery/>
       {/* <About/> */}
       {/* <Faq /> */}
       {/* <Booking /> */}

@@ -36,8 +36,8 @@ const Nav = () => {
           </Link>
         </li>
         <li>
-          <Link href="#work" onClick={closeMenu}>
-            Work
+          <Link href="#gallery" onClick={closeMenu}>
+            Gallery
           </Link>
         </li>
         <li>
