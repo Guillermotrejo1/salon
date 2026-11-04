@@ -1,12 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import Nav from "./Nav";
+import { site } from "@/data/site";
 
 const Header = () => {
   return (
     <header className="grid grid-cols-[1fr_auto_auto] md:grid-cols-[auto_1fr_auto] gap-4 md:gap-8 items-center p-8 relative">
       <Link href="/" className="">
-        <span>Jon Doe</span>
+        <span>{site.name}</span>
         {/* <Image src="" alt="" /> */}
       </Link>
       <Nav/>
