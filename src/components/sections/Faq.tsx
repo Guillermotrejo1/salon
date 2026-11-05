@@ -1,8 +1,9 @@
 import { faqs } from "@/data/faq";
+import Section from "../ui/Section";
 
 const Faq = () => {
   return (
-    <section id="faq" className="max-w-5xl mx-auto w-full p-6 md:p-12">
+    <Section id="faq">
       <h2 className="text-3xl md:text-4xl font-semibold leading-tight">
         Policies / FAQ
       </h2>
@@ -24,7 +25,7 @@ const Faq = () => {
           </li>
         ))}
       </ul>
-    </section>
+    </Section>
   );
 };
 

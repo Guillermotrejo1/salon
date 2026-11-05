@@ -1,10 +1,11 @@
 import { services } from "@/data/services";
+import Section from "../ui/Section";
 
 const Services = () => {
   return (
-    <section
+    <Section
       id="services"
-      className="max-w-5xl mx-auto w-full p-6 md:p-12"
+      className=""
     >
       <div className="grid gap-6 rounded-2xl bg-surface p-6 md:p-10">
         <h2 className="text-3xl md:text-4xl font-semibold leading-tight">
@@ -26,7 +27,7 @@ const Services = () => {
           and design.*
         </p>
       </div>
-    </section>
+    </Section>
   );
 };
 

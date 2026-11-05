@@ -1,9 +1,9 @@
 import Image from "next/image";
-import React from "react";
+import Section from "../ui/Section";
 
 const About = () => {
   return (
-    <section id="about" className="max-w-5xl mx-auto w-full p-6 md:p-12">
+    <Section id="about">
       <div
         className="grid gap-6 md:gap-10 bg-surface rounded-2xl p-6 md:p-10
                   md:grid-cols-[2fr_3fr]
@@ -27,7 +27,7 @@ const About = () => {
           <p>[WHAT SHE LOVES TO CREATE]</p>
         </div>
       </div>
-    </section>
+    </Section>
   );
 };
 

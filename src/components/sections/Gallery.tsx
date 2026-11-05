@@ -1,12 +1,13 @@
 import { galleryItems, instagramPreview } from "@/data/gallery";
 import Image from "next/image";
 import Link from "next/link";
+import Section from "../ui/Section";
 
 const Gallery = () => {
   return (
-    <section
+    <Section
       id="gallery"
-      className="grid gap-6 max-w-5xl mx-auto w-full p-6 md:p-12"
+      className="grid gap-6"
     >
       <h2 className="text-3xl md:text-4xl font-semibold leading-tight">
         Recent work
@@ -51,7 +52,7 @@ const Gallery = () => {
           </Link>
         </li>
       </ul>
-    </section>
+    </Section>
   );
 };
 
