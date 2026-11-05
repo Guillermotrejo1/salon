@@ -8,3 +8,8 @@
   --color-deep: #2E151B;     /* dark burgundy: footer, text on pink */
   --color-ink: #F6F1F2;      /* soft white: main text */
 }
+
+@theme inline {
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+}

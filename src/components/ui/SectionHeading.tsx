@@ -8,7 +8,7 @@ type SectionHeadingProps = {
 const SectionHeading = ({ className = "", children }: SectionHeadingProps) => {
   return (
     <h2
-      className={`text-3xl md:text-4xl font-semibold leading-tight ${className}`}
+      className={`font-display text-3xl md:text-4xl font-medium leading-tight ${className}`}
     >
       {children}
     </h2>
