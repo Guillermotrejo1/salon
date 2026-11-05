@@ -1,5 +1,6 @@
 import { services } from "@/data/services";
 import Section from "../ui/Section";
+import SectionHeading from "../ui/SectionHeading";
 
 const Services = () => {
   return (
@@ -8,9 +9,9 @@ const Services = () => {
       className=""
     >
       <div className="grid gap-6 rounded-2xl bg-surface p-6 md:p-10">
-        <h2 className="text-3xl md:text-4xl font-semibold leading-tight">
+        <SectionHeading>
           Services
-        </h2>
+        </SectionHeading>
         <ul className="grid md:grid-cols-2 gap-x-12 gap-y-4">
           {services.map((service) => (
             <li

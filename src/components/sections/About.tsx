@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Section from "../ui/Section";
+import SectionHeading from "../ui/SectionHeading";
 
 const About = () => {
   return (
@@ -20,9 +21,9 @@ const About = () => {
         </div>
 
         <div className="[grid-area:text] grid gap-4 content-center">
-          <h2 className="text-3xl md:text-4xl font-semibold leading-tight">
+          <SectionHeading>
             About me
-          </h2>
+          </SectionHeading>
           <p>[HOW LONG SHE{"'"}S DONE NAILS]</p>
           <p>[WHAT SHE LOVES TO CREATE]</p>
         </div>

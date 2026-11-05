@@ -1,12 +1,13 @@
 import { faqs } from "@/data/faq";
 import Section from "../ui/Section";
+import SectionHeading from "../ui/SectionHeading";
 
 const Faq = () => {
   return (
     <Section id="faq">
-      <h2 className="text-3xl md:text-4xl font-semibold leading-tight">
+      <SectionHeading>
         Policies / FAQ
-      </h2>
+      </SectionHeading>
       <ul role="list" className="grid gap-2">
         {faqs.map((faq) => (
           <li key={faq.id}>

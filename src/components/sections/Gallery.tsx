@@ -2,6 +2,7 @@ import { galleryItems, instagramPreview } from "@/data/gallery";
 import Image from "next/image";
 import Link from "next/link";
 import Section from "../ui/Section";
+import SectionHeading from "../ui/SectionHeading";
 
 const Gallery = () => {
   return (
@@ -9,9 +10,9 @@ const Gallery = () => {
       id="gallery"
       className="grid gap-6"
     >
-      <h2 className="text-3xl md:text-4xl font-semibold leading-tight">
+      <SectionHeading>
         Recent work
-      </h2>
+      </SectionHeading>
       <ul className="grid grid-cols-2 md:grid-cols-4 gap-3">
         {galleryItems.map((item) => (
           <li
