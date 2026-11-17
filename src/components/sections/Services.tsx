@@ -24,8 +24,7 @@ const Services = () => {
           ))}
         </ul>
         <p className="text-sm text-ink/70">
-          *A $[AMOUNT] deposit is required to book. Prices may vary with length
-          and design.*
+          A $20 deposit is required to book and goes toward your service total. Prices may vary with length and design.
         </p>
       </div>
     </Section>

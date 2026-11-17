@@ -1,5 +1,5 @@
 export const site = {
-  name: "Jon Doe",
+  name: "Limari Villanueva",
   area: "Houston",
   bookingUrl: "https://www.guillermotrejo.dev/",
   instagramUrl: "https://www.facebook.com/guillermo.trejo.77/",

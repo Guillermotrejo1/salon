@@ -18,7 +18,7 @@ const Hero = () => {
           Custom nails, made <span className="text-brand">just for you</span>
         </h1>
         <p className="text-base md:text-lg max-w-md">
-          Gel, acrylics, and nail art in [AREA]. By appointment only.
+          Gel, acrylics, and nail art in Houston Tx. By appointment only.
         </p>
         <Link href="#booking" className="bg-brand text-deep px-6 py-3 rounded-full font-medium">Book now</Link>
       </div>
