@@ -3,6 +3,7 @@ import { Fraunces, DM_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import PreviewBadge from "@/components/ui/PreviewBadge";
 
 const display = Fraunces({
   subsets: ["latin"],
@@ -25,13 +26,18 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html
       lang="en"
       data-scroll-behavior="smooth"
-      className={`${display.variable} ${body.variable} h-full antialiased`} suppressHydrationWarning
+      className={`${display.variable} ${body.variable} h-full antialiased`}
+      suppressHydrationWarning
     >
-      <body className="min-h-screen grid grid-rows-[auto_1fr_auto] bg-page text-ink" suppressHydrationWarning>
+      <body
+        className="min-h-screen grid grid-rows-[auto_1fr_auto] bg-page text-ink"
+        suppressHydrationWarning
+      >
         <Header />
         {children}
-        <Footer/>
-        </body>
+        <Footer />
+        <PreviewBadge/>
+      </body>
     </html>
   );
 }

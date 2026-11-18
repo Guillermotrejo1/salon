@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export",              // build plain HTML files into out/
+  images: { unoptimized: true }, // next/image works without a server
   turbopack: {
     rules: {
       "*.css": {
